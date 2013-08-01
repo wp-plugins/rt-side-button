@@ -19,7 +19,7 @@ Royal Side Button add a vertical button to the left side or right of the browser
 * Vist the [blog post](http://royaltechbd.com/rt-side-button/) to know more.
 * [Give a Rating & Write a Review](http://goo.gl/AFgnOM)
 
-= Features =
+### Features
 
 It's easy to use and configure from one settings screen, you can:
 * "Open link in new window" option
