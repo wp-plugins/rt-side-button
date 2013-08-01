@@ -14,20 +14,18 @@ Display a side button that you can easily link to any page. Customize the button
 
 Royal Side Button add a vertical button to the left side or right of the browser window that links to any page.
 
-= More =
+### Features
+It's easy to use and configure from one settings screen, you can:
+* "Open link in new window" option.
+* Choose any google fonts.
+* Choose button color & hover .
+* Easy to set internal or external link.
+* Easy to set vertical position of your button.
+
+### More
 * Thank you for using our plugin.
 * Vist the [blog post](http://royaltechbd.com/rt-side-button/) to know more.
 * [Give a Rating & Write a Review](http://goo.gl/AFgnOM)
-
-### Features
-
-It's easy to use and configure from one settings screen, you can:
-* "Open link in new window" option
-* Choose any google fonts
-* Choose button color & hover 
-* Easy to set internal or external link
-* Easy to set vertical position of your button
-
 
 == Installation ==
 
