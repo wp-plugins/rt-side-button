@@ -3,7 +3,7 @@
 Plugin Name: Royal Side Button
 Plugin URI: http://wordpress.org/plugins/royal-side-button/
 Description: Display a side button that you can easily link to any page like feedback, twitter, facebook etc & customise as you like.
-Version: 1.0.0
+Version: 1.0.1
 Author: Mehdi Akram
 Author URI: http://profiles.wordpress.org/royaltechbd
 License: GPLv2
@@ -40,7 +40,7 @@ function royal_sidebutton_activate_plugin() {
 		'font_family'      => '"Righteous", cursive',
 		'font_weight_bold' => '1',
 		'button_position'  => '0',
-		'tab_url'          => 'http://royaltechbd.com/contact/',
+		'tab_url'          => 'http://royaltechbd.com/blog/',
 		'pixels_from_top'  => '350',
 		'text_color'       => '#FFFFFF',
 		'tab_color'        => '#3891B3',
@@ -216,7 +216,7 @@ function royal_sidebutton_options_page() {
 	<table class="widefat">
 
 		<tr valign="top">
-		<th scope="row" width="230"><label for="royal_sidebutton_text_for_tab">Text for tab</label></th>
+		<th scope="row" width="230"><label for="royal_sidebutton_text_for_tab">Text for Button</label></th>
 		<td width="525"><input maxlength="30" size="25" type="text" name="royal_sidebutton_plugin_options[text_for_tab]" value="<?php echo esc_html( $royal_sidebutton_text_for_tab ); ?>" /></td>
 		</tr>
 
@@ -278,7 +278,7 @@ function royal_sidebutton_options_page() {
 
 
 		<tr valign="top">
-		<th scope="row"><label for="royal_sidebutton_tab_url">Tab URL</label></th>
+		<th scope="row"><label for="royal_sidebutton_tab_url">Button URL</label></th>
 		<td><input size="45" type="text" name="royal_sidebutton_plugin_options[tab_url]" value="<?php echo esc_url( $royal_sidebutton_tab_url ); ?>" /></td>
 		</tr>
 
@@ -305,19 +305,19 @@ function royal_sidebutton_options_page() {
 
 
 		<tr valign="top">
-			<th scope="row"><label for="royal_sidebutton_text_color">Text color</label></th>
+			<th scope="row"><label for="royal_sidebutton_text_color">Button Text color</label></th>
 			<td width="33%"><input type="text" maxlength="7" size="6" value="<?php echo esc_attr( $royal_sidebutton_text_color ); ?>" name="royal_sidebutton_plugin_options[text_color]" id="color1" /></td>
 		</tr>
 
 
 		<tr valign="top">
-			<th scope="row"><label for="royal_sidebutton_tab_color">Tab color</label></th>
+			<th scope="row"><label for="royal_sidebutton_tab_color">Button color</label></th>
 			<td width="33%"><input type="text" maxlength="7" size="6" value="<?php echo esc_attr( $royal_sidebutton_tab_color ); ?>" name="royal_sidebutton_plugin_options[tab_color]" id="color2" /></td>
 		</tr>
 
 
 		<tr valign="top">
-			<th scope="row"><label for="royal_sidebutton_hover_color">Tab hover color</label></th>
+			<th scope="row"><label for="royal_sidebutton_hover_color">Button hover color</label></th>
 			<td width="33%"><input type="text" maxlength="7" size="6" value="<?php echo esc_attr( $royal_sidebutton_hover_color ); ?>" name="royal_sidebutton_plugin_options[hover_color]" id="color3" /></td>
 		</tr>
 
